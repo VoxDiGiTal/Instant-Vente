@@ -14,7 +14,7 @@ let prefix = "-";
 
 /////
 
-bot.login("NTA5MTQ4MTQ4NTMxMjAwMDAx.DsknIw.eeI3zHvbE8F9FZ4HdFvux0BB6W4")
+bot.login(process.env.TOKEN)
 
   
 bot.on('ready', () => {
