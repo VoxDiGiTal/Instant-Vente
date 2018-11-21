@@ -2,6 +2,7 @@ const Discord = require("discord.js"),
 bot = new Discord.Client();
 const logcolor = require("chalk");
 const path = require('path')
+const token = process.env.token
 const fs = require('fs');
 const snek = require('snekfetch');
 const ms = require("ms");
@@ -14,7 +15,7 @@ let prefix = "-";
 
 /////
 
-bot.login(process.env.TOKEN)
+bot.login(process.env.token)
 
   
 bot.on('ready', () => {
