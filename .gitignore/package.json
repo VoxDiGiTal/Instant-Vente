@@ -1,33 +1,14 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
-  "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
-  "main": "server.js",
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "alexpgm",
+  "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "discord.js": "^11.4.2",
-    "express": "^4.16.3",
-    "fs": "^0.0.1-security",
-    "ms": "^2.1.1",
-    "path": "^0.12.7",
-    "snekfetch": "^4.0.4"
-  },
-  "engines": {
-    "node": "8.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+    "discord.js": "^11.3.2"
+  }
 }
